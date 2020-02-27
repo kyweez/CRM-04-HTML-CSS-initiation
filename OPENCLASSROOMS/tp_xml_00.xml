@@ -2,7 +2,7 @@
 
 <repertoire>
   <!-- Maxime BLANC -->
-  <personne sexe="masculin">
+  <information_identite sexe="masculin" age="32">
     <nom>BLANC</nom>
     <prenom>Maxime</prenom>
     <adresse>
@@ -11,21 +11,21 @@
       <code_postal>17000</code_postal>
       <ville>LA ROCHELLE</ville>
     </adresse>
-    <contact>
+    <information_contact>
       <telephone>
         <tel type="mobile">06.07.08.06.07</tel>
         <tel type="fixe">05.46.08.06.07</tel>
-        <tel type="pro">05.46.08.10.07</tel>
+        <tel type="pro">none</tel>
       </telephone>
       <email>
         <mail type="perso">m.blanc@gmail.com</mail>
-        <mail type="pro">m.blanc@arfp.asso.fr</mail>
+        <mail type="pro">none</mail>
       </email>
-    </contact>
-  </personne>
+    </information_contact>
+  </information_identite>
 	
   <!-- Mathilde BLANCHE -->
-  <personne sexe="feminin">
+  <information_identite sexe="feminin" age="35">
     <nom>BLANCHE</nom>
     <prenom>Mathilde</prenom>
     <adresse>
@@ -34,7 +34,7 @@
       <code_postal>24100</code_postal>
       <ville>BERGERAC</ville>
     </adresse>
-    <contact>
+    <information_contact>
       <telephone>
         <tel type="mobile">07.06.08.06.07</tel>
         <tel type="fixe">05.53.08.06.07</tel>
@@ -44,6 +44,6 @@
         <mail type="perso">m.blanche@gmail.com</mail>
         <mail type="pro">m.blanche@arfp.asso.fr</mail>
       </email>
-    </contact>
-  </personne>
+    </information_contact>
+  </information_identite>
 </repertoire>
