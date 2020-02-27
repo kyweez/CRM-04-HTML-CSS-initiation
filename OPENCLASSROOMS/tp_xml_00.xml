@@ -1,43 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <repertoire>
-  <!-- John DOE -->
+  <!-- Maxime BLANC -->
   <personne sexe="masculin">
-    <nom>DOE</nom>
-    <prenom>John</prenom>
+    <nom>BLANC</nom>
+    <prenom>Maxime</prenom>
     <adresse>
-      <numero>7</numero>
-      <voie type="impasse">impasse du chemin</voie>
-      <code_postal>75015</code_postal>
-      <ville>PARIS</ville>
-      <pays>FRANCE</pays>
+      <numero>12</numero>
+      <voie type="rue">des fusains</voie>
+      <code_postal>17000</code_postal>
+      <ville>LA ROCHELLE</ville>
     </adresse>
-    <telephones>
-      <telephone type="fixe">01 02 03 04 05</telephone>
-      <telephone type="portable">06 07 08 09 10</telephone>
-    </telephones>
-    <emails>
-      <email type="personnel">john.doe@wanadoo.fr</email>
-      <email type="professionnel">john.doe@societe.com</email>
-    </emails>
+    <contact>
+      <telephone>
+        <tel type="mobile">06.07.08.06.07</tel>
+        <tel type="fixe">05.46.08.06.07</tel>
+        <tel type="pro">05.46.08.10.07</tel>
+      </telephone>
+      <email>
+        <mail type="perso">m.blanc@gmail.com</mail>
+        <mail type="pro">m.blanc@arfp.asso.fr</mail>
+      </email>
+    </contact>
   </personne>
 	
-  <!-- Marie POPPINS -->
+  <!-- Maxime BLANC -->
   <personne sexe="feminin">
-    <nom>POPPINS</nom>
-    <prenom>Marie</prenom>
+    <nom>BLANCHE</nom>
+    <prenom>Mathilde</prenom>
     <adresse>
-      <numero>28</numero>
-      <voie type="avenue">avenue de la république</voie>
-      <codePostal>13005</codePostal>
-      <ville>MARSEILLE</ville>
-      <pays>FRANCE</pays>
+      <numero>123</numero>
+      <voie type="avenue">des cordeliers</voie>
+      <code_postal>24100</code_postal>
+      <ville>BERGERAC</ville>
     </adresse>
-    <telephones>
-      <telephone type="professionnel">04 05 06 07 08</telephone>
-    </telephones>
-    <emails>
-      <email type="professionnel">contact@poppins.fr</email>
-    </emails>
+    <contact>
+      <telephone>
+        <tel type="mobile">07.06.08.06.07</tel>
+        <tel type="fixe">05.53.08.06.07</tel>
+        <tel type="pro">05.53.08.10.07</tel>
+      </telephone>
+      <email>
+        <mail type="perso">m.blanche@gmail.com</mail>
+        <mail type="pro">m.blanche@arfp.asso.fr</mail>
+      </email>
+    </contact>
   </personne>
 </repertoire>
