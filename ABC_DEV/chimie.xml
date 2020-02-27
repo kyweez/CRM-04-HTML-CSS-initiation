@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--Une bouteille d'eau Cristaline de 150 cl contient par litre 71 mg d'ions p-
+ositifs calcium, et 5,5 mg d'ions positifs magnésium. On y trouve également des
+ions négatifs comme des chlorures à 20 mg par litre et des nitrates avec 1 mg 
+par litre. Elle est recueillie à St-Cyr la Source, dans le département du Loir-
+et. Son code barre est 3274080005003 et son pH est de 7,45. Comme la bouteille 
+est sale, quelques autres matériaux comme du fer s'y trouvent en suspension.-->
+
+<!--Une seconde bouteille d'eau Cristaline a été, elle, recueillie à la source 
+d'Aurèle dans les Alpes Maritimes. La concentration en ions calcium est de 98 
+mg/l, et en ions magnésium de 4 mg/l. Il y a 3,6 mg/l d'ions chlorure et 2 mg/l
+de nitrates, pour un pH de 7,4. Le code barre de cette bouteille de 50 cl est 
+3268840001008.-->
+
+<!--Une bouteille de même contenance est de marque Volvic, et a été puisée à V-
+olvic, bien connue pour ses sources donnant un pH (neutre) de 7. Elle comprend 
+11,5 mg/l d'ions calcium, 8,0 mg/l d'ions magnésium, 13,5 mg/l d'ions chlorures
+et 6,3 mg/l d'ions nitrates. Elle contient également des particules de silice. 
+Son code barre est 3057640117008.-->
+
+<bouteille_eau>
+    <!-- Cristaline 1 -->
+    <bouteille type="plastique" code_barre="3274080005003">
+        <marque>Cristalline</marque>
+        <source departement="Loiret">St-Cyr la Source</source>
+        <volume unite="cL">150</volume>
+        <donnees_chimiques>
+            <pH>7,45</pH>
+            <concentration_en_ion>
+                <ion_positif>
+                    <calcium unite="mg/L">71</calcium>
+                    <magnesium unite="mg/L">5,5</magnesium>
+                </ion_positif>
+                <ion_negatif>
+                    <chlorure unite="mg/L">20</chlorure>
+                    <nitrate unite="mg/L">1</nitrate>
+                </ion_negatif>
+            </concentration_en_ion>
+            <materiaux_presents>Fer</materiaux_presents>
+        </donnees_chimiques>
+    </bouteille>
+    <!-- Cristaline 2 -->
+    <bouteille type="plastique" code_barre="3268840001008">
+        <marque>Cristalline</marque>
+        <source departement="Alpes Maritimes">Aurele</source>
+        <volume unite="cL">50</volume>
+        <donnees_chimiques>
+            <pH>7,4</pH>
+            <concentration_en_ion>
+                <ion_positif>
+                    <calcium unite="mg/L">98</calcium>
+                    <magnesium unite="mg/L">4</magnesium>
+                </ion_positif>
+                <ion_negatif>
+                    <chlorure unite="mg/L">3,6</chlorure>
+                    <nitrate unite="mg/L">2</nitrate>
+                </ion_negatif>
+            </concentration_en_ion>
+            <materiaux_presents></materiaux_presents>
+        </donnees_chimiques>
+    </bouteille>
+    <!-- Volvic -->
+    <bouteille type="plastique" code_barre="3057640117008">
+        <marque>Volvic</marque>
+        <source departement="Auvergne">Volvic</source>
+        <volume unite="cL">50</volume>
+        <donnees_chimiques>
+            <pH>7</pH>
+            <concentration_en_ion>
+                <ion_positif>
+                    <calcium unite="mg/L">11,5</calcium>
+                    <magnesium unite="mg/L">8</magnesium>
+                </ion_positif>
+                <ion_negatif>
+                    <chlorure unite="mg/L">13,5</chlorure>
+                    <nitrate unite="mg/L">6,3</nitrate>
+                </ion_negatif>
+            </concentration_en_ion>
+            <materiaux_presents>Silice</materiaux_presents>
+        </donnees_chimiques>
+    </bouteille>
+</bouteille_eau>
