@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -124,7 +124,7 @@
     <div id="2" style="background-color: rgba(228, 140, 113, 0.815);">
         <h2>Test de mise en forme du texte</h2>
         <p>
-            <strong>Ce texte est entre les balises &lt;strong&gt;&lt;/strong&gt</strong>
+            <strong>Ce texte est entre les balises &lt;strong&gt;&lt;/strong&gt;</strong>
             <br>
             <em> Ce texte est entre les balises &lt;em&gt;&lt;/em&gt;</em>
             <br>
@@ -262,17 +262,25 @@
                     target="blank">Site de Mickael</a></li>
             <li>Lien vers une nouvelle page de mon site : <a href="images.html">Lien vers une autre page de mon site</a>
             </li>
-            <li>Faire un mail vers abc@def.com : <a href="mailto:abc@def.com">Cliquez ici pour envoyer un mail</a></li>
+            <li>Faire un mail vers abc@def.com : <a href="mailto:webmaster@lesite.com?subject=Le sujet&body=Le corps du message">Contacter le webmaster</a></li>
             <li><a href="../IMAGES/images_du_site.zip">Telecharger les images du site</a></li>
             <li>
                 Vous souhaitez voir l'image dans sa taille d'origine ? Cliquez dessus !<br />
-                <a href="../IMAGES/chat.jpg"><img src="../IMAGES/chat_mini.jpg" alt="Photo de chat"
-                        title="Cliquez pour agrandir" /></a>
+                <a href="../IMAGES/chat.jpg">
+                    <figure style="height: 100px; width: 300px; background-color: cyan;">
+                        <img style="position: relative;" src="../IMAGES/chat_mini.jpg" alt="Photo de chat"
+                            title="Cliquez pour agrandir" />
+                        <figcaption>La miniature du chat</figcaption>
+                    </figure>
+
+                </a>
             </li>
-            <p>Cliquer sur l'image dessous pour ouvrir Google</p>
-            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj57NHzx_vnAhUqzIUKHXXVBsUQPAgH" target="blank"><img
-                    style="height: 84px; width: 128px;" src="../IMAGES/google.jpg" title="LIEN VERS GOOGLE"></a>
         </ol>
+            <p>Cliquer sur l'image dessous pour ouvrir Google</p>
+            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj57NHzx_vnAhUqzIUKHXXVBsUQPAgH"
+                target="blank"><img style="height: 84px; width: 128px;" src="../IMAGES/google.jpg"
+                    title="LIEN VERS GOOGLE"></a>
+        
     </div>
     <div id="5" style="background-color: rgba(236, 11, 11, 0.815);">
         <h5>Titre de niveau 5</h5>
