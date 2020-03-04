@@ -1,0 +1,46 @@
+body
+{
+    background-color: #77cc6d;
+}
+
+div
+{
+    background-color: rgb(235, 230, 230);
+}
+
+header
+{
+    background-color: rgb(235, 230, 230);
+}
+
+header 
+
+#navigation {
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none ;
+    text-align: left ;
+}
+
+#navigation li {
+    display: inline-block;
+    width: 200px;
+    margin-right: 1px ;
+    color: #fff ;
+    background: #c00 ;
+  }
+
+  #navigation li a {
+    display: block;
+    background: rgb(131, 127, 127);
+    color: #fff ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 2em ;
+    text-align: center ;
+    text-decoration: none ;
+    padding: 4px 0 ;
+  }
+
+  #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+    background: rgb(59, 47, 47) ;
+  }

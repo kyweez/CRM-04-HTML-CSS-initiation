@@ -5,6 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage CRM</title>
+    <style>
+        table {
+            text-align: center;
+        }
+
+        td,
+        th,
+        caption {
+            border: 1px solid black;
+        }
+
+        h5,
+        h6 {
+            font-size: 18pt;
+        }
+
+        caption {
+            font-size: 20pt;
+        }
+    </style>
 </head>
 
 <body style="background-color: rgba(253, 244, 191, 0.815); font-size: 16pt;">
@@ -262,12 +282,14 @@
                     target="blank">Site de Mickael</a></li>
             <li>Lien vers une nouvelle page de mon site : <a href="images.html">Lien vers une autre page de mon site</a>
             </li>
-            <li>Faire un mail vers abc@def.com : <a href="mailto:webmaster@lesite.com?subject=Le%20sujet&body=Le%20corps%20du%20message">Contacter le webmaster</a></li>
+            <li>Faire un mail vers abc@def.com : <a
+                    href="mailto:webmaster@lesite.com?subject=Le%20sujet&body=Le%20corps%20du%20message">Contacter le
+                    webmaster</a></li>
             <li><a href="../IMAGES/images_du_site.zip">Telecharger les images du site</a></li>
             <li>
                 Vous souhaitez voir l'image dans sa taille d'origine ? Cliquez dessus !<br />
                 <a href="../IMAGES/chat.jpg">
-                    <figure style="height: 100px; width: 300px; background-color: cyan;">
+                    <figure align="center" style="height: 100px; width: 300px; background-color: cyan;">
                         <img style="position: relative;" src="../IMAGES/chat_mini.jpg" alt="Photo de chat"
                             title="Cliquez pour agrandir" />
                         <figcaption>La miniature du chat</figcaption>
@@ -276,113 +298,71 @@
                 </a>
             </li>
         </ol>
-            <p>Cliquer sur l'image dessous pour ouvrir Google</p>
+        <p>Cliquer sur l'image dessous pour ouvrir Google :
             <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj57NHzx_vnAhUqzIUKHXXVBsUQPAgH"
-                target="blank"><img style="height: 84px; width: 128px;" src="../IMAGES/google.jpg"
-                    title="LIEN VERS GOOGLE"></a>
-        
+                target="blank"><img align="center" style="height: 84px; width: 128px;" src="../IMAGES/google.jpg"
+                    title="LIEN VERS GOOGLE">
+            </a>
+        </p>
+
     </div>
-    <div id="5" style="background-color: rgba(236, 11, 11, 0.815);">
-        <h5>Titre de niveau 5</h5>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
-            smod tempor incididunt ut labore et dolore magna aliqua. Sem intege
-            r vitae justo eget magna fermentum iaculis eu. Posuere sollicitudin
-            aliquam ultrices sagittis orci a scelerisque. Pretium fusce id vel
-            it ut tortor pretium viverra. A condimentum vitae sapien pellentes
-            que habitant morbi tristique. Nunc pulvinar sapien et ligula ullam
-            corper malesuada proin libero nunc. Morbi quis commodo odio aenean
-            sed adipiscing diam. Tristique sollicitudin nibh sit amet. Sit am
-            et consectetur adipiscing elit. Ullamcorper sit amet risus nullam
-            eget felis eget nunc lobortis.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
-            smod tempor incididunt ut labore et dolore magna aliqua. Sem intege
-            r vitae justo eget magna fermentum iaculis eu. Posuere sollicitudin
-            aliquam ultrices sagittis orci a scelerisque. Pretium fusce id vel
-            it ut tortor pretium viverra. A condimentum vitae sapien pellentes
-            que habitant morbi tristique. Nunc pulvinar sapien et ligula ullam
-            corper malesuada proin libero nunc. Morbi quis commodo odio aenean
-            sed adipiscing diam. Tristique sollicitudin nibh sit amet. Sit am
-            et consectetur adipiscing elit. Ullamcorper sit amet risus nullam
-            eget felis eget nunc lobortis.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
-            smod tempor incididunt ut labore et dolore magna aliqua. Sem intege
-            r vitae justo eget magna fermentum iaculis eu. Posuere sollicitudin
-            aliquam ultrices sagittis orci a scelerisque. Pretium fusce id vel
-            it ut tortor pretium viverra. A condimentum vitae sapien pellentes
-            que habitant morbi tristique. Nunc pulvinar sapien et ligula ullam
-            corper malesuada proin libero nunc. Morbi quis commodo odio aenean
-            sed adipiscing diam. Tristique sollicitudin nibh sit amet. Sit am
-            et consectetur adipiscing elit. Ullamcorper sit amet risus nullam
-            eget felis eget nunc lobortis.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
-            smod tempor incididunt ut labore et dolore magna aliqua. Sem intege
-            r vitae justo eget magna fermentum iaculis eu. Posuere sollicitudin
-            aliquam ultrices sagittis orci a scelerisque. Pretium fusce id vel
-            it ut tortor pretium viverra. A condimentum vitae sapien pellentes
-            que habitant morbi tristique. Nunc pulvinar sapien et ligula ullam
-            corper malesuada proin libero nunc. Morbi quis commodo odio aenean
-            sed adipiscing diam. Tristique sollicitudin nibh sit amet. Sit am
-            et consectetur adipiscing elit. Ullamcorper sit amet risus nullam
-            eget felis eget nunc lobortis.
-        </p>
+    <div id="5" style="background-color: rgba(247, 156, 156, 0.815);">
+        <h5>Test sur les tableaux en html</h5>
+        <table align="center">
+            <caption>Essai de tableau</caption>
+            <tr>
+                <th colspan="4">Les differentes villes</th>
+            </tr>
+            <tr>
+                <td>Ville</td>
+                <td>Image</td>
+                <td>Lien Wikipedia</td>
+                <td>Nombre d'habitants</td>
+            </tr>
+            <tr>
+                <td>Mulhouse</td>
+                <td><img style="height: 200px; width: 300px" src="../IMAGES/mulhouse.jpg" alt="Image de Mulhouse"></td>
+                <td><a href="https://en.wikipedia.org/wiki/Mulhouse">Wikipedia Mulhouse</a></td>
+                <td>109,443</td>
+            </tr>
+            <tr>
+                <td>La Rochelle</td>
+                <td><img style="height: 200px; width: 300px" src="../IMAGES/larochelle.jpeg" alt="Image de La Rochelle">
+                </td>
+                <td><a href="https://en.wikipedia.org/wiki/La_Rochelle">Wikipedia La Rochelle</a></td>
+                <td>75,735</td>
+            </tr>
+            <tr>
+                <td>Paris</td>
+                <td><img style="height: 200px; width: 300px" src="../IMAGES/paris.jpg" alt="Image de Paris"></td>
+                <td><a href="https://en.wikipedia.org/wiki/Paris">Wikipedia Paris</a></td>
+                <td>2,148,271</td>
+            </tr>
+            <tr>
+                <td>Barcelone</td>
+                <td><img style="height: 200px; width: 300px" src="../IMAGES/barcelone.jpg" alt="Image de Barcelone">
+                </td>
+                <td><a href="https://en.wikipedia.org/wiki/Barcelone">Wikipedia Barcelone</a></td>
+                <td>1,620,343</td>
+            </tr>
+        </table>
     </div>
     <div id="6" style="background-color: rgba(71, 223, 66, 0.815);">
-        <h6>Titre de niveau 6</h6>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
-            smod tempor incididunt ut labore et dolore magna aliqua. Sem intege
-            r vitae justo eget magna fermentum iaculis eu. Posuere sollicitudin
-            aliquam ultrices sagittis orci a scelerisque. Pretium fusce id vel
-            it ut tortor pretium viverra. A condimentum vitae sapien pellentes
-            que habitant morbi tristique. Nunc pulvinar sapien et ligula ullam
-            corper malesuada proin libero nunc. Morbi quis commodo odio aenean
-            sed adipiscing diam. Tristique sollicitudin nibh sit amet. Sit am
-            et consectetur adipiscing elit. Ullamcorper sit amet risus nullam
-            eget felis eget nunc lobortis.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
-            smod tempor incididunt ut labore et dolore magna aliqua. Sem intege
-            r vitae justo eget magna fermentum iaculis eu. Posuere sollicitudin
-            aliquam ultrices sagittis orci a scelerisque. Pretium fusce id vel
-            it ut tortor pretium viverra. A condimentum vitae sapien pellentes
-            que habitant morbi tristique. Nunc pulvinar sapien et ligula ullam
-            corper malesuada proin libero nunc. Morbi quis commodo odio aenean
-            sed adipiscing diam. Tristique sollicitudin nibh sit amet. Sit am
-            et consectetur adipiscing elit. Ullamcorper sit amet risus nullam
-            eget felis eget nunc lobortis.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
-            smod tempor incididunt ut labore et dolore magna aliqua. Sem intege
-            r vitae justo eget magna fermentum iaculis eu. Posuere sollicitudin
-            aliquam ultrices sagittis orci a scelerisque. Pretium fusce id vel
-            it ut tortor pretium viverra. A condimentum vitae sapien pellentes
-            que habitant morbi tristique. Nunc pulvinar sapien et ligula ullam
-            corper malesuada proin libero nunc. Morbi quis commodo odio aenean
-            sed adipiscing diam. Tristique sollicitudin nibh sit amet. Sit am
-            et consectetur adipiscing elit. Ullamcorper sit amet risus nullam
-            eget felis eget nunc lobortis.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
-            smod tempor incididunt ut labore et dolore magna aliqua. Sem intege
-            r vitae justo eget magna fermentum iaculis eu. Posuere sollicitudin
-            aliquam ultrices sagittis orci a scelerisque. Pretium fusce id vel
-            it ut tortor pretium viverra. A condimentum vitae sapien pellentes
-            que habitant morbi tristique. Nunc pulvinar sapien et ligula ullam
-            corper malesuada proin libero nunc. Morbi quis commodo odio aenean
-            sed adipiscing diam. Tristique sollicitudin nibh sit amet. Sit am
-            et consectetur adipiscing elit. Ullamcorper sit amet risus nullam
-            eget felis eget nunc lobortis.
-        </p>
+        <h6>Test de formulaires</h6>
+        <form action="" method="POST">
+            <p>
+                <label for="surname">Nom de famille</label>
+                <input type="text" name="surname" placeholder="Tapez votre nom" id="surname">
+            </p>
+            <p>
+                <label for="firstname">Prenom</label>
+                <input type="text" name="firstname" placeholder="Tapez votre prenom" id="firstname">
+            </p>
+            <p>
+                <label for="firstname">Age</label>
+                <input type="text" name="firstname" placeholder="Tapez votre age" id="firstname">
+            </p>
+        </form>
     </div>
 </body>
 
