@@ -348,19 +348,88 @@
         </table>
     </div>
     <div id="6" style="background-color: rgba(71, 223, 66, 0.815);">
-        <h6>Test de formulaires</h6>
+        <h6>Test de formulaire</h6>
         <form action="" method="POST">
             <p>
                 <label for="surname">Nom de famille</label>
-                <input type="text" name="surname" placeholder="Tapez votre nom" id="surname">
+                <input type="text" name="surname" placeholder="Tapez votre nom" id="surname" />
             </p>
             <p>
                 <label for="firstname">Prenom</label>
-                <input type="text" name="firstname" placeholder="Tapez votre prenom" id="firstname">
+                <input type="text" name="firstname" placeholder="Tapez votre prenom" id="firstname" />
             </p>
             <p>
-                <label for="firstname">Age</label>
-                <input type="text" name="firstname" placeholder="Tapez votre age" id="firstname">
+                <label for="age">Age</label>
+                <input type="text" name="firstname" placeholder="Tapez votre age" id="firstname" />
+            </p>
+            <p>
+                <label for="tel">Telephone</label>
+                <input type="text" name="tel" placeholder="Tape plus de 10 caracteres" id="tel" maxlength="10" />
+            </p>
+            <div style="background-color: cadetblue; height: 250px; width: 30 px;">
+                <h4>Quelle musique aimes-tu ?</h4>
+                <p>
+                    <label for="jazz">Jazz</label>
+                    <input type="checkbox" name="jazz" id="jazz">
+                </p>
+                <p>
+                    <label for="rock">Rock</label>
+                    <input type="checkbox" name="rock" id="rock">
+                </p>
+                <p>
+                    <label for="pop">Pop</label>
+                    <input type="checkbox" name="pop" id="pop">
+                </p>
+                <p>
+                    <label for="metal">Le Metal underground alternatif c'est trop de la balle !</label>
+                    <input type="checkbox" name="metal" id="metal">
+                </p>
+            </div>
+            <div style="background-color: rgb(184, 152, 49); height: 250px; width: 30 px;">
+                <h4>Sexe ?</h4>
+                <p>
+                    <label for="femnme">Femme</label>
+                    <input type="radio" name="sex" id="femme">
+                </p>
+                <p>
+                    <label for="homme">Homme</label>
+                    <input type="radio" name="sex" id="homme">
+                </p>
+                <p>
+                    <label for="nspp">NSPP</label>
+                    <input type="radio" name="sex" id="nspp">
+                </p>
+                <p>
+                    <label for="ok">Oui, avec plaisir, ou et quand ?</label>
+                    <input type="radio" name="sex" id="ok">
+                </p>
+            </div>
+            <p>
+                <label for="couleur">Quelle est ta couleur preferee ?</label>
+                <select name="couleur" id="couleur">
+                    <option value="none"></option>
+                    <option value="blue">Bleu</option>
+                    <option value="green">Vert</option>
+                    <option value="yellow">Jaune</option>
+                    <option value="red">Rouge</option>
+                    <option value="purple">Violet</option>
+                    <option value="orange">Orange</option>
+                </select>
+            </p>
+            <p>
+                <label for="password">Quel est le password ?</label>
+                <input type="password" id="password" name="password" maxlength="4">
+            </p>
+            <p align="center">
+                <p><label for="avis">Avis sur le site</label></p>
+                <textarea name="avis" id="avis" cols="30" rows="5"
+                    placeholder="Quel est votre avis sur ce site  ?"></textarea>
+            </p>
+            <p align="center">
+                <input type="submit" value="Valider" />
+                <input type="reset" value="Reset" />
+                <input type="button" value="C'est nul ton formulaire" />
+                <input type="button" value="Bouton desactive" disabled="disabled" />
             </p>
         </form>
     </div>
