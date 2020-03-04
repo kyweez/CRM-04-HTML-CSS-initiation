@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Formulaire</title>
+    <style>
+        header {
+            background-color: chocolate;
+            height: 760px;
+        }
+
+        label,
+        strong {
+            font-weight: bold;
+            font-size: 13pt;
+        }
+
+        div label {
+            font-weight: normal;
+        }
+
+        .bouton {
+            height: 500px;
+            padding-top: 20px;
+        }
+
+        .bouton input {
+            background-color: rgb(238, 108, 108);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="fornmulaire.png" alt="image exo">
+    </header>
+    <h2>Application</h2>
+    <section>
+        <h1>Formulaire Type</h1>
+        <article>
+            <h2>Coordonees</h2>
+            <form action="" method="post">
+                <p>
+                    <label for="name">Nom</label><br>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="firstname">Nom</label><br>
+                    <input type="text" name="firstname" id="firstname">
+                </p>
+                <p>
+                    <label for="doc">Je desire recevoir une documentation </label>
+                    <input type="checkbox" name="documentation" id="doc">
+                </p>
+                <p>
+                    <label for="country">Pays</label>
+                    <select name="country" id="country">
+                        <option value="ch">CH - Suisse</option>
+                        <option value="fr">FR - France</option>
+                        <option value="ge">GE - Allemagne</option>
+                        <option value="it">IT - Italien</option>
+                    </select>
+
+                </p>
+                <div>
+                    <strong>Sexe</strong>
+                    <input type="radio" name="sex" id="male" value=>
+                    <label for="male">Masculin</label>
+                    <input type="radio" name="sex" id="female" value=>
+                    <label for="female">Feminin</label>
+                </div>
+            </form>
+        </article>
+        <article>
+            <h2>Domaine(s) d'activite</h2>
+            <form action="" method="POST">
+                <div>
+                    <p>Vous pouvez en choisir plus qu'un...</p>
+                    <p>
+                        <input type="checkbox" name="pedago" id="pedago">
+                        <label for="pedago">Pedagogie</label>
+                        <input type="checkbox" name="info" id="info">
+                        <label for="info">Informatique</label>
+                        <input type="checkbox" name="psy" id="psy">
+                        <label for="psy">Psychologie</label>
+                        <input type="checkbox" name="autre" id="autre">
+                        <label for="autre">Autre</label>
+                    </p>
+                </div>
+                <div>
+                    <strong>Commentaire</strong>
+                    <p>Si vous le voulez, vous pouvez decrire vos activites ou interets</p>
+                    <label for="description"></label>
+                    <textarea name="description" id="description" cols="80" rows="5"></textarea>
+                </div>
+                <div class="bouton">
+                    <input type="reset" value="Effacer les donnes">
+                    <input type="submit" value="Enregistrer les donnees">
+                </div>
+            </form>
+        </article>
+    </section>
+</body>
+
+</html>
