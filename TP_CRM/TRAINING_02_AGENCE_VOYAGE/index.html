@@ -13,27 +13,27 @@
     <header>
         <section>
             <!--Penser a formater en majuscule au debut de chaque mot-->
-            <p>travel agency<span>.</span></p>
+            <p class="first_letter_uper">travel agency<span class="orange">.</span></p>
         </section>
         <nav>
             <!--Penser a formater tout le texte en majuscule-->
             <ul>
-                <li>accueil</li>
-                <li>destinations</li>
-                <li>circuits</li>
-                <li>contact</li>
+                <li><a href="#accueil">accueil</a></li>
+                <li><a href="./destinations.html">destinations</a></li>
+                <li><a href="#circuits">circuits</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
+    <section id="accueil">
         <img src="" alt="Image du ponton qui va sur la mer">
-        <h1>organisez votre voyage</h1>
+        <h1>organisez votre</h1>
         <h2>voyage sur mesure</h2>
         <a href="organisation_voyage.html">Par ici</a>
     </section>
 
-    <section>
+    <section class="wrapper">
         <article>
             <img src="./img/steps-icon-1.png" alt="Image du stylo">
             <h3>planifier</h3>
@@ -54,7 +54,7 @@
         </article>
     </section>
 
-    <section>
+    <section class="wrapper" id="circuits">
         <article>
             <h3>partez en famille</h3>
             <p>Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux !</p>
@@ -70,9 +70,9 @@
         </article>
     </section>
 
-    <section>
+    <section id="contact">
         <article>
-            <h4></h4>
+            <h4>contactez-noous</h4>
             <p>Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement
                 financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte
                 chacune de vos attentes pour vous aider dans la préparation de votre séjour, circuit ou voyage sur
@@ -90,7 +90,7 @@
     </section>
     <footer>
         <p>travel agency<span>.</span></p>
-        <p>Copyright © Tous droits réservés.</p>
+        <p>Copyright &copy Tous droits réservés.</p>
     </footer>
 </body>
 
