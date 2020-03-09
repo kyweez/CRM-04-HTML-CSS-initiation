@@ -1,0 +1,9 @@
+#important{
+    color: slateblue;
+}
+.test-class{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p#important .test-class{
+    font-weight: bold;
+}

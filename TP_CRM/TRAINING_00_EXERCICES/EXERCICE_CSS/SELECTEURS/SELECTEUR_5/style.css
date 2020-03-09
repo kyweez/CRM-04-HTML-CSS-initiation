@@ -1,0 +1,20 @@
+p.remarque{
+    font-style: oblique 50px;
+    color: red;
+}
+
+.remarque{
+    font-style: italic;
+}
+
+.important{
+    font-weight: bold;
+}
+
+.remarque.important{
+    color: royalblue;
+}
+
+p:first-child .remarque.important{
+    color: seagreen;
+}
