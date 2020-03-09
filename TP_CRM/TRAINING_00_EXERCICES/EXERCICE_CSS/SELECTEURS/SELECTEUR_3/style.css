@@ -1,0 +1,17 @@
+h1, h2{
+    color: teal;
+}
+a{
+    color: violet;
+}
+p a{
+    color: tomato;
+}
+.test2{
+    color: rgb(38, 0, 255);
+    font-weight: bold;
+}
+.test1{
+    color: red;
+    font-weight: bold;
+}
