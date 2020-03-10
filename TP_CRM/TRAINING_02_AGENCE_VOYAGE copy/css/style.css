@@ -1,70 +1,132 @@
+/*#######################################*/
+/*############### GENERAL ###############*/
+/*#######################################*/
 *{
-    box-sizing:content-box;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
 }
-
-body{
-    font-family: Crete Round;
-    font-size: 15px;
+header, main, section, footer, .wrapper{
     box-sizing: content-box;
-}
-
-header{
-    height: 120px;
-    box-sizing: content-box;
-
-}
-
-.wrapper{
-    margin: 0 auto;
-    padding: 0;
-    width: 1000px;
-    background-color: slateblue;
-}
-
-
-/************************Header************************/
-header section {
-    box-sizing: content-box;
-    float: left;
-    margin: 0 auto;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    background-color: skyblue;
-}
-header nav{
-    box-sizing: content-box;
-    float: right;
-    margin: 0 auto;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    background-color: springgreen;
-}
-header section p {
+    width: 100%;
     text-align: center;
+}
+.wrapper{
+    background-color: chartreuse;
+    width: 942px;
     margin: auto;
 }
-
+.orange-dot{
+    font-family: "Crete Round", "serif";
+    font-size: 22pt;
+    color: #ff7a00;
+}
+/*#######################################*/
+/*################ HEADER ###############*/
+/*#######################################*/
+header{
+    height: 120px;
+}
+h1, nav{
+    height: 100%;
+}
+h1{
+    font-family: "Crete Round";
+    font-size: 45px;
+    text-transform: capitalize;
+    float: left;
+    width: 50%;
+    background-color: brown;
+}
+nav{
+    float: left;
+    width: 50%;
+    background-color: rgb(42, 165, 73);
+}
+/*#######################################*/
+/*############### ACCUEIL ###############*/
+/*#######################################*/
 #accueil{
+    text-align: center;
     background-image: url(../img/main.jpg);
-    margin: 0 auto;
-    padding: 0;
     height: 700px;
-    width: 100%;
-    text-align: center;
+}
+h2{
+    font-size: 40pt;
+}
+/*#######################################*/
+/*############# PRESTATIONS #############*/
+/*#######################################*/
+
+/*#######################################*/
+/*############### CIRCUITS ##############*/
+/*#######################################*/
+
+/*#######################################*/
+/*############### CONTACTS ##############*/
+/*#######################################*/
+
+/*#######################################*/
+/*################ FOOTER ###############*/
+/*#######################################*/
+h3{
+    font-weight: bold;
+    font-size: 14pt;
 }
 
-ul{
+nav, h2, h3{
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
     list-style: none;
+    display: inline;
+}
+hr{
+    border: 1px solid gray;
+}
+h1, strong, .orange-dot{
+    font-weight: bold;
+}
+h2 strong{
+    font-size: 40pt;
+}
+.orange-button{
+    background-color: #ff7a00;
+    color: white;
+}
+.blue-button{
+    color: #fff;
+    background-color: #02b8dd;
 }
 
-article{
-    box-sizing: content-box;
-    width: 100%;
-    margin: 0 auto;
+#circuits{
+    background-color: #efefef;
+}
+#partez-en-famille{
+    background-image: url(../img/article-image-1.jpg);
+}
+#envie-evasion{
+    background-image: url(../img/article-image-2.jpg);
+}
+#contacts{
     text-align: center;
 }
+footer{
+    text-align: center;
+    background-color: #444;
+    color: #777;
+}
+footer h1{
+    color: #fff;
+    float:none;
+    width: 100%;
+    background-color: #444;
+}
+

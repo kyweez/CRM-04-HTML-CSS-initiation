@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+    color: cornsilk;
+    font-weight: bold;
+}
+button{
+    width: 120px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: teal;
+    border: 1px solid rgb(252, 47, 47);
+}
+button:hover a{
+    color: black;
+}
+
+button:active{
+    font-weight: normal;
+    background-color: rgb(84, 179, 179);
+}
