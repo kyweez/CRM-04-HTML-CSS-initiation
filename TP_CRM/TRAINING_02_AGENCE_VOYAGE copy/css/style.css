@@ -15,7 +15,6 @@
 
 /*Formatage des propriétés containers principaux*/
 header, main, section, footer, .wrapper{
-    box-sizing: border-box;
     width: 100%;
     text-align: center;
 }
@@ -23,7 +22,6 @@ header, main, section, footer, .wrapper{
 /*Formatage des propriétés des listes*/
 li{
     list-style: none;
-    display: inline-block;
 }
 
 /*Formatage des propriétés des liens*/
@@ -42,14 +40,14 @@ a{
 /*Formatage des propriétés des liens*/
 .orange-button{
     background-color: #ff7a00;
+    border: 1px solid #ff7a00;
     color: white;
 }
 
 /*Formatage des propriétés des liens*/
 .wrapper{
-    background-color: chartreuse;
-    width: 50%;
-    margin: auto;
+    /*background-color: chartreuse;*/
+    width: 60%;
 }
 
 /*============================================================*/
@@ -61,62 +59,109 @@ header{
     height: 7.5em;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 /*Mise a l'echelle de h1 et nav (en fonction du container header)*/
-h1, nav{
+nav{
     /*box-sizing: border-box;*/
-    width: 50%;
+    width: 25%;
 }
 h1{
+    width: 50%;
     font-family: "Crete Round", Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     font-size: 250%;
 }
-nav{
+nav ul{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: #02b8dd;
-}
-nav li>a{
-    display: inline-flex;
-    flex-basis: 10%;
-    background-color: darkmagenta;
-}
-nav li>a:hover{
-    background-color: rgb(216, 214, 210);
-    font-weight: bold;
+    justify-content: space-between;
 }
 
-/*############### ACCUEIL ###############*/
+.menu{
+    font-weight: bold;
+    padding: 52px 20px;
+    color: rgb(70, 68, 68);
+}
+.menu:hover{
+    background-color: rgb(216, 214, 210);
+    font-weight: bold;
+    color: black;
+}
+
+/*============================================================*/
+/*========================== ACCUEIL =========================*/
+/*============================================================*/
 #accueil{
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
     background-image: url(../img/main.jpg);
+    background-position: center;
     height: 700px;
 }
 #accueil div{
-    background-color: crimson;
-    height: 100%;
+    height: 68%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 h2{
-    background-color: cyan;
-    font-size: 40pt;
+    height: 20%;
+    font-size: 350%;
+    padding: 15% 0% 5% 0%;
+    margin: 5% 0%;
+}
+h2 strong{
+    font-size: 100%;
 }
 #accueil a{
-    position: relative;
     display: inline-block;
-    margin: 1em;
-    padding: 0.7em 2.2em;
-    border-radius: 0.2em;
+    margin: 0 auto;
+    font-weight: bold;
+    width: 13%;
+    border-radius: 4px;
+    padding: 1.5%;
 }
 #accueil a:hover{
     background-color: #02b8dd;
-    border: 4px solid #003cff;
+    border: 1px solid #02b8dd;
 }
 
-/*############# PRESTATIONS #############*/
+/*============================================================*/
+/*======================== PRESTATIONS =======================*/
+/*============================================================*/
+
+#prestations{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+#prestations div{
+    height: 100%;
+    background-color: teal;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+article img{
+    height: 100px;
+    width: 100px;
+}
+
+#prestations article{
+    height: 100%;
+    width: 30%;
+    font-size: 88%;
+    background-color: teal;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
 
 /*############### CIRCUITS ##############*/
 
@@ -138,9 +183,6 @@ hr{
 }
 h1, strong, .orange-dot{
     font-weight: bold;
-}
-h2 strong{
-    font-size: 40pt;
 }
 
 .blue-button{
