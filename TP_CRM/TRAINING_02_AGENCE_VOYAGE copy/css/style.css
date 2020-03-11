@@ -1,77 +1,128 @@
-/*#######################################*/
-/*############### GENERAL ###############*/
-/*#######################################*/
+/*============================================================*/
+/*========================== GENERAL =========================*/
+/*============================================================*/
+
+/*Formatage de la page*/
 *{
     padding: 0px;
     border: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
+    font-size: 100%;
     font-weight: normal;
+    list-style: none;
 }
+
+/*Formatage des propriétés containers principaux*/
 header, main, section, footer, .wrapper{
-    box-sizing: content-box;
+    box-sizing: border-box;
     width: 100%;
     text-align: center;
 }
-.wrapper{
-    background-color: chartreuse;
-    width: 942px;
-    margin: auto;
+
+/*Formatage des propriétés des listes*/
+li{
+    list-style: none;
+    display: inline-block;
 }
+
+/*Formatage des propriétés des liens*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Formatage des propriétés des liens*/
 .orange-dot{
-    font-family: "Crete Round", "serif";
-    font-size: 22pt;
+    font-family: "Crete Round", Arial, Helvetica, sans-serif;
+    font-size: 100%;
     color: #ff7a00;
 }
-/*#######################################*/
-/*################ HEADER ###############*/
-/*#######################################*/
-header{
-    height: 120px;
+
+/*Formatage des propriétés des liens*/
+.orange-button{
+    background-color: #ff7a00;
+    color: white;
 }
+
+/*Formatage des propriétés des liens*/
+.wrapper{
+    background-color: chartreuse;
+    width: 50%;
+    margin: auto;
+}
+
+/*============================================================*/
+/*========================== HEADER ==========================*/
+/*============================================================*/
+
+/*Definition de la taille et du positionnement du header */
+header{
+    height: 7.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Mise a l'echelle de h1 et nav (en fonction du container header)*/
 h1, nav{
-    height: 100%;
+    /*box-sizing: border-box;*/
+    width: 50%;
 }
 h1{
-    font-family: "Crete Round";
-    font-size: 45px;
+    font-family: "Crete Round", Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    float: left;
-    width: 50%;
-    background-color: brown;
+    font-size: 250%;
 }
 nav{
-    float: left;
-    width: 50%;
-    background-color: rgb(42, 165, 73);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #02b8dd;
 }
-/*#######################################*/
+nav li>a{
+    display: inline-flex;
+    flex-basis: 10%;
+    background-color: darkmagenta;
+}
+nav li>a:hover{
+    background-color: rgb(216, 214, 210);
+    font-weight: bold;
+}
+
 /*############### ACCUEIL ###############*/
-/*#######################################*/
 #accueil{
     text-align: center;
     background-image: url(../img/main.jpg);
     height: 700px;
 }
+#accueil div{
+    background-color: crimson;
+    height: 100%;
+}
 h2{
+    background-color: cyan;
     font-size: 40pt;
 }
-/*#######################################*/
+#accueil a{
+    position: relative;
+    display: inline-block;
+    margin: 1em;
+    padding: 0.7em 2.2em;
+    border-radius: 0.2em;
+}
+#accueil a:hover{
+    background-color: #02b8dd;
+    border: 4px solid #003cff;
+}
+
 /*############# PRESTATIONS #############*/
-/*#######################################*/
 
-/*#######################################*/
 /*############### CIRCUITS ##############*/
-/*#######################################*/
 
-/*#######################################*/
 /*############### CONTACTS ##############*/
-/*#######################################*/
 
-/*#######################################*/
 /*################ FOOTER ###############*/
-/*#######################################*/
 h3{
     font-weight: bold;
     font-size: 14pt;
@@ -80,14 +131,8 @@ h3{
 nav, h2, h3{
     text-transform: uppercase;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-li{
-    list-style: none;
-    display: inline;
-}
+
+
 hr{
     border: 1px solid gray;
 }
@@ -97,10 +142,7 @@ h1, strong, .orange-dot{
 h2 strong{
     font-size: 40pt;
 }
-.orange-button{
-    background-color: #ff7a00;
-    color: white;
-}
+
 .blue-button{
     color: #fff;
     background-color: #02b8dd;
