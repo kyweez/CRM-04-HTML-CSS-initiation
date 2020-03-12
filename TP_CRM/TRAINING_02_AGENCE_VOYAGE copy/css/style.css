@@ -19,6 +19,7 @@ header, main, section, footer, .wrapper{
     text-align: center;
 }
 
+
 /*Formatage des propriétés des listes*/
 li{
     list-style: none;
@@ -35,9 +36,10 @@ nav, h2, h3{
 }
 
 h3{
-    margin: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
     font-weight: bold;
-    font-size: 14pt;
+    font-size: 140%;
 }
 img{
     margin: 55px 0px 15px 0px;
@@ -60,7 +62,6 @@ img{
 
 /*Formatage des propriétés des liens*/
 .wrapper{
-    /*background-color: chartreuse;*/
     width: 60%;
 }
 
@@ -134,7 +135,7 @@ h2 strong{
     display: inline-block;
     margin: 0 auto;
     font-weight: bold;
-    width: 13%;
+    width: 10%;
     border-radius: 4px;
     padding: 1.5%;
 }
@@ -173,21 +174,130 @@ h2 strong{
     height: 100px;
 }
 
+/*============================================================*/
+/*========================= CIRCUITS =========================*/
+/*============================================================*/
 
-
-
-/*############### CIRCUITS ##############*/
-
-/*############### CONTACTS ##############*/
-
-/*################ FOOTER ###############*/
-
-
-
-
-hr{
-    border: 1px solid gray;
+#circuits{
+    background-color: #efefef;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+#circuits .wrapper{
+    width: 55%;
+}
+#circuits div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#circuits article>div{
+    width: 35%;
+    background-color: rgba(255,255,255, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 0px 20px;
+}
+#partez-en-famille{
+    height: 270px;
+    width: 460px;
+    background-image: url(../img/article-image-1.jpg);
+    border-radius: 9px;
+}
+#envie-evasion{
+    height: 270px;
+    width: 460px;
+    background-image: url(../img/article-image-2.jpg);
+    border-radius: 9px;
+}
+#circuits h3{
+    border-bottom: 2px solid rgb(209, 206, 206);
+    padding: 0px 10px 20px 10px;
+    margin-top: 20px;
+}
+#circuits p{
+    padding: 20px 0px;
+    font-style: italic;
+    line-height: 140%;
+    font-size: 90%;
+}
+
+#circuits a{
+    display: inline-block;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 4px;
+    padding: 2.5%;
+    font-size: 94%;
+}
+#circuits a:hover{
+    background-color: #02b8dd;
+    border: 1px solid #02b8dd;
+}
+
+/*============================================================*/
+/*========================= CONTACTS =========================*/
+/*============================================================*/
+
+#contacts{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contacts .wrapper{
+    width: 55%;
+}
+#contacts h3{
+    border-bottom: 1px solid #02b8dd;;
+    padding: 0px 30px 15px 30px;
+    margin-top: 5%;
+}
+#contacts div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+#contacts p{
+    margin: 25px;
+    line-height: 150%;
+}
+#contacts form{
+    padding-top: 5%;
+    font-size: 120%;
+}
+#contacts label{
+    font-weight: bold;
+    margin-left: 20px;
+}
+#contacts input{
+    margin: 0 10px;
+    border: 1px solid #949191;
+    border-radius: 3px;
+    height: 150%;
+    text-indent: 10px;
+}
+input:last-of-type{
+    padding-right: 10px;
+    font-weight: bold;
+}
+input:last-of-type:hover{
+    background-color: #ff7a00;
+}
+
+/*============================================================*/
+/*========================== FOOTER ==========================*/
+/*============================================================*/
+
 h1, strong, .orange-dot{
     font-weight: bold;
 }
@@ -197,26 +307,17 @@ h1, strong, .orange-dot{
     background-color: #02b8dd;
 }
 
-#circuits{
-    background-color: #efefef;
-}
-#partez-en-famille{
-    background-image: url(../img/article-image-1.jpg);
-}
-#envie-evasion{
-    background-image: url(../img/article-image-2.jpg);
-}
-#contacts{
-    text-align: center;
-}
 footer{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
     background-color: #444;
     color: #777;
+    height: 150px;
 }
 footer h1{
     color: #fff;
-    float:none;
     width: 100%;
     background-color: #444;
 }
