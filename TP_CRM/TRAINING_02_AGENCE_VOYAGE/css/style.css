@@ -116,19 +116,17 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
-=======
 }
 #accueil h2{
     padding: 17% 0 0% 0;
+    line-height: 120%;
     text-transform: uppercase;
-    font-size: 300%;
+    font-size: 320%;
 }
 #accueil .orange-button{
     display: inline-block;
     padding: 1.4% 4%;
     margin: 10% 0;
->>>>>>> a1c3c5875c94ef70ae893d287fc58f07756ed072
 }
 /*======================== PRESTATIONS =======================*/
 #prestations{
@@ -232,9 +230,50 @@ h3{
 #contacts{
     width: 100%;
     height: 20%;
-    background-color: royalblue;
+    text-align: center;
 }
-
+#contacts h3{
+    font-size: 150%;
+    width: 36%;
+    margin: 0 32% 2% 32%;
+    padding: 5% 0 2% 0;
+    border-bottom: 2px solid #02b8dd;
+}
+#contacts p{
+    margin: 2% 0 0 0;
+    padding: 2% 3%;
+}
+#formulaire{
+    height: 25%;
+}
+form{
+    height: 100%;
+    padding: 5% 0;
+}
+label{
+    font-size: 110%;
+    font-weight: bold;
+    padding: 1%;
+}
+input{
+    height: 40%;
+    margin-right: 3%;
+    text-align: left;
+    text-indent: 3%;
+    border: 1px solid #949191;
+}
+input:last-of-type{
+    background-color: #02b8dd;
+    font-weight: bold;
+    color: white;
+    padding: 0 1%;
+    border: 1px solid #02b8dd;
+    border-radius: 4px;
+}
+input:last-of-type:hover{
+    background-color: #ff7a00;
+    border: 1px solid #ff7a00;
+}
 
 /*#######################################################################*/
 /*################################ FOOTER ###############################*/
