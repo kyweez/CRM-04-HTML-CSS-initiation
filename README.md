@@ -1,2 +1,2 @@
-# CRM-04-Html-css-initiation
+# CRM-04-HTML-CSS-initiation
 Training web client HTML5 & CSS3
